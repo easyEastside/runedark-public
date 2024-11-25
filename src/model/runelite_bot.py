@@ -21,7 +21,6 @@ import utilities.ocr as ocr
 import utilities.random_util as rd
 from model.bot import Bot
 from model.runelite_window import RuneLiteWindow
-
 from model.window import Window
 from utilities import settings
 from utilities.color_util import Color, ColorPalette, isolate_colors, isolate_contours
