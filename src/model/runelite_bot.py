@@ -41,6 +41,7 @@ class RuneLiteBot(Bot, metaclass=ABCMeta):
 
     win: RuneLiteWindow = None  # Every `RuneLiteBot` runs in a `RuneLiteWindow`.
     cp = ColorPalette()  # Defining here allows for default kwarg colors in type hints.
+
     # The game tick serves as the fundamental time unit within OSRS servers,
     # representing the duration of one server cycle. Analogous to a game's frame rate,
     # it dictates the pace of in-game events and actions. Data is transmitted to the

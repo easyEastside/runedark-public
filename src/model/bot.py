@@ -16,8 +16,6 @@ from customtkinter.windows.ctk_toplevel import CTkToplevel
 
 import utilities.debug as debug
 import utilities.random_util as rd
-
-# from utilities.window import Window
 from model.window import Window
 from utilities.geometry import Point
 from utilities.mouse import Mouse
@@ -226,7 +224,7 @@ class Bot(ABC):
         else:
             self.log_msg("Bot is stopped.")
 
-    # ---- Controller ----
+    # --- Controller ---
     def set_controller(self, controller: "BotController"):
         """Set the the associated controller for this `Bot`.
 

@@ -1,4 +1,7 @@
-![logo](img/wiki-splash.png)
+<p align="center">
+  <img src="img/wiki-splash.png" alt="logo" width="616"/>
+</p>
+
 ___
 # General FAQ
 1. **What is RuneDark?**
@@ -25,10 +28,10 @@ ___
     - Servers flag actions that wouldn't be possible through the standard UI.
         - **Example**: A bot detects a potion in the inventory and drinks it even if the inventory tab isn't open, which a human player couldn't do without switching views.
 8. **How was RuneDark built?**
-    - RuneDark started as a fork from [OSBC](https://github.com/kelltom/OS-Bot-COLOR) 🙏.
+    - RuneDark's core uses [`mss`](https://python-mss.readthedocs.io/) and [`opencv`](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html).
     - It was developed and tested on Windows.
 9.  **Can I be banned for using RuneDark?**
-    - Only if using it irresponsibly in violation of game terms of service.
+    - Only if using it irresponsibly in violation of game's terms of service.
 10. **How likely am I to get banned using RuneDark?**
     - Unlikely if used responsibly. RuneDark's humanization techniques reduce detectability.
 11. **Is it safe to bot on my main account?**
@@ -129,7 +132,7 @@ ___
   - [Nuitka](https://github.com/Nuitka/Nuitka)
     - This method is far more secure and modern, but build times are significant.
     - The standard command to compile a version of RuneDark is:
-      - `python -m nuitka --standalone --follow-imports --enable-plugin=tk-inter --include-module=cv2 --enable-plugin=no-qt src/rune_dark.py`
+      - `python -m nuitka --standalone --follow-imports --enable-plugin=tk-inter --enable-plugin=no-qt src/rune_dark.py`
   - [PyArmor](https://github.com/dashingsoft/pyarmor)
     - A tool used to obfuscate python scripts, bind obfuscated scripts to fixed machine, or expire obfuscated scripts.
 
