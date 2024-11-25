@@ -21,8 +21,8 @@ ___
     - RuneDark can be expanded to fit any on-screen computer game.
     - Right now, it only works for 2007-style OSRS interfaces.
 3. **Is RuneDark safe?**
-    - Although RuneDark is closed source, it is safe and easy to use.
-    - The RuneDark team strongly encourages you to scan any executable file you receive for viruses before running it, as this is a best practice for security.
+    - As of November 2024, RuneDark is open source. It is safe and easy to use.
+    - As a rule, it's best to review a developer's code or scan any executable file you receive for viruses before running it to ensure you're using safe software.
 4. **What are the general approaches to gaming software automation?**
     - There are three general types:
         - ***Injection***: Injects unauthorized code into the game, similar to jailbreaking a phone.
