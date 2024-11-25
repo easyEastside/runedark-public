@@ -303,7 +303,7 @@ class Bot(ABC):
         """Don't do anything for a number of seconds.
 
         Note that there is a built-in skew to use times closer to the lower bound due
-        to the definition of `fancy_normal_sample`.
+        to the definition of `biased_trunc_norm_samp`.
 
         Args:
             lo (float, optional): The lower bound for the truncated normal distribution
